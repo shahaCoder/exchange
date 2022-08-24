@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../adaptation/adaptation.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../fonts/fonts.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <aside>
+            
+            <div class="aside-top-block">
+                <div class="aside-top">
+                    <img src="../images/valuet.svg" class="top-text">
+                <img src="../images/Line 3.1.svg" class="img-line">
+                </div>
+                <div class="sections">
+                    <div class="item over-click">
+                        <img src="../images/overview.svg" alt="">
+                        <p class="over-style">Overview</p>
+                    </div>
+                    <div class="item">
+                        <img src="../images/wallets.svg" alt="">
+                        <p>Wallets</p>
+                    </div>
+                    <div class="item">
+                        <img src="../images/transactions.svg" alt="">
+                        <p>Transactions</p>
+                    </div>
+                    <div class="item ex">
+                        <img src="../images/exchange.svg" alt="">
+                        <p class="active">Exchange</p>
+                    </div>
+                    <div class="item">
+                        <img src="../images/market.svg" alt="">
+                        <p>Market</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="aside-bottom">
+                <img src="../images/Line 3.1.svg" class="aside-bottom-line">
+                <div class="bottom-item">
+                    <img src="../images/Ellipse.svg">
+                    <p>Mike Jackson</p>
+                </div>
+                <div class="bottom-item2">
+                    <img src="../images/log.svg">
+                    <p>Log Out</p>
+                </div>
+            </div>
+
+        </aside>
+        <main>
+            <header>
+                <div class="left-header-block">
+                    <img src="../images/1329080_burger_list_menu_numbers_string_icon.svg" height="30px" class="menu">
+                    <input type="search" class="header-inp">
+                    <img src="../images/search.svg" class="search-img">
+                </div>
+                <div class="right-header-block">
+                    <img src="../images/mail.svg">
+                    <img src="../images/ring.svg" class="ring">
+                </div>
+    
+            </header>
+            <h1 class="exchange-text">Exchange</h1>
+
+            <div class="main-exchange-block">
+                <div class="cont">
+                      <p>From</p>
+                     <div class="box">
+                        <div class="left-box">
+                            <select id="currency">
+                                <option disabled>Select</option>
+                            </select>
+                            <img src="../images/btc.svg" class="btc">
+                        </div>
+                        <input type="text" class="change-inp" id="inp1">
+                     </div>
+                  </div>
+                  <div class="cont">
+                    <p>To</p>
+                    <div class="box">
+                        <div class="right-box">
+                            <select id="currency2">
+                                <option disabled>Select</option>
+                            </select>
+                            <img src="../images/Group 5.1.svg" class="btc">
+                        </div>
+                        <input type="text" class="change-inp" id="inp2">
+                    </div>
+                  </div>
+            </div>
+            <div class="main-exchange-block2">
+                <!-- <div class="main-box"> -->
+                    <div class="left-container">
+                        <p class="num">0.012345</p>
+                        <img src="../images/btc2.svg" class="btc2">
+                    </div>
+                    <img src="../images/Arrow.svg" class="arrow">
+                    <div class="right-container">
+                        <img src="../images/gridCoin2.svg" class="gridCoin">
+                        <p class="num2">0.012345</p>
+                    </div>
+                <!-- </div> -->
+            </div>
+
+            <div class="footer-btn">
+                <button class="exchange-btn">Exchange</button>
+            </div>
+        </main>
+
+        <div class="main-overview-page">
+            <div class="main-overview_header">
+                <div class="left-header-block">
+                    <img src="../images/1329080_burger_list_menu_numbers_string_icon.svg" height="30px" class="menu">
+                    <input type="search" class="header-inp">
+                    <img src="../images/search.svg" class="search-img">
+                </div>
+                <div class="right-header-block">
+                    <img src="../images/mail.svg">
+                    <img src="../images/ring.svg" class="ring">
+                </div>
+
+            </div>
+            <div class="overview-top">
+                <div class="left-overview-top">
+                    <p>Overview</p>
+                    <p class="date">25 August, Saturday</p>
+                </div>
+                <div class="right-overview-top">
+                    <button class="widget-btn">Add Widget</button>
+                </div>
+            </div>
+            <div class="overview-container">
+                <div class="overview-box">
+                    <p>Balance</p>
+                    <div class="canvas">
+                        <canvas id="myChart"></canvas>
+                      </div>
+                      <div class="btm">
+                        <div class="first">
+                            <div>
+                                <img src="../images/white-roll.svg" class="roll">
+                                <p>Etherium</p>
+                            </div>
+                            <p style="font-weight: 600;">18%</p>
+                        </div>
+                        <div class="second">
+                            <div>
+                                <img src="../images/blue-roll.svg" class="roll">
+                                <p>Etherium</p>
+                            </div>
+                            <p class="blue-percent">64%</p>
+                        </div>
+                        <div class="third">
+                            <div>
+                                <img src="../images/yellow-roll.svg" class="roll">
+                                <p>Etherium</p>
+                            </div>
+                            <p class="yellow-percent">18%</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="overview-box">
+                    <div class="over-top">
+                        <p>Spending</p>
+                        <select>
+                            <option selected>January</option>
+                        </select>
+                    </div>
+                    <div class="over-main">
+                        <p>$ 5,743.35</p>
+                        <p class="total">total spending</p>
+                        <div class="a">
+                            <canvas id="myChart2"></canvas>
+                          </div>
+                    </div>
+                </div>
+                <div class="right-overview-cont">
+                    <div class="item-over">
+                        <p class="btc-text">BitCoin</p>
+                        <div class="over-all">
+                            <div class="left-btc-part">
+                                <img src="../images/btc.svg" class="grd">
+                                <div>
+                                    <p>600 BTC</p>
+                                    <p class="amount">$30,000,000</p>
+                                </div>
+                            </div>
+                            <div class="right-btc-part">
+                                <div class="smth-box">
+                                    <div>
+                                        <img src="../images/arrow-up.svg" >
+                                    </div>
+                                    <div>
+                                        <p class="amount2">$1 200 = 0,074 btc</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="smth-box">
+                                    <div>
+                                        <img src="../images/arrow-down.svg" >
+                                    </div>
+                                    <div>
+                                        <p class="amount2">$1 200 = 0,074 btc</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="smth-box">
+                                    <div>
+                                        <img src="../images/arrow-down.svg" >
+                                    </div>
+                                    <div>
+                                        <p class="amount2">$1 200 = 0,074 btc</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-over">
+                        <p class="btc-text">Ethereum</p>
+                        <div class="over-all">
+                            <div class="left-btc-part">
+                                <img src="../images/etherium.svg" class="grd">
+                                <div>
+                                    <p>600 ETH</p>
+                                    <p class="amount">$30,000,000</p>
+                                </div>
+                            </div>
+                            <div class="right-btc-part">
+                                <div class="smth-box">
+                                    <div>
+                                        <img src="../images/arrow-up.svg" >
+                                    </div>
+                                    <div>
+                                        <p class="amount2">$1 200 = 0,074 eth</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="smth-box">
+                                    <div>
+                                        <img src="../images/arrow-down.svg" >
+                                    </div>
+                                    <div>
+                                        <p class="amount2">$1 200 = 0,074 eth</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="smth-box">
+                                    <div>
+                                        <img src="../images/arrow-down.svg" >
+                                    </div>
+                                    <div>
+                                        <p class="amount2">$1 200 = 0,074 eth</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-overview-cont">
+                    <div class="item-over it-ov2">
+                        <p class="btc-text">GridCoin</p>
+                        <div class="over-all">
+                            <div class="left-btc-part">
+                                <img src="../images/gridCoin2.svg" class="grd">
+                                <div>
+                                    <p>600 GTC</p>
+                                    <p class="amount">$30,000,000</p>
+                                </div>
+                            </div>
+                            <div class="right-btc-part">
+                                <div class="smth-box">
+                                    <div>
+                                        <img src="../images/arrow-up.svg">
+                                    </div>
+                                    <div>
+                                        <p class="amount2">$1 200 = 0,074 gtc</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="smth-box">
+                                    <div>
+                                        <img src="../images/arrow-down.svg" >
+                                    </div>
+                                    <div>
+                                        <p class="amount2">$1 200 = 0,074 gtc</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="smth-box">
+                                    <div>
+                                        <img src="../images/arrow-down.svg" >
+                                    </div>
+                                    <div>
+                                        <p class="amount2">$1 200 = 0,074 gtc</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-over it-ov2">
+                        <p class="btc-text">Aeternity</p>
+                        <div class="over-all">
+                            <div class="left-btc-part">
+                                <img src="../images/aeternity.svg" class="grd">
+                                <div>
+                                    <p>600 AE</p>
+                                    <p class="amount">$30,000,000</p>
+                                </div>
+                            </div>
+                            <div class="right-btc-part">
+                                <div class="smth-box">
+                                    <div>
+                                        <img src="../images/arrow-up.svg" >
+                                    </div>
+                                    <div>
+                                        <p class="amount2">$1 200 = 0,074 ae</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="smth-box">
+                                    <div>
+                                        <img src="../images/arrow-down.svg" >
+                                    </div>
+                                    <div>
+                                        <p class="amount2">$1 200 = 0,074 ae</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="smth-box">
+                                    <div>
+                                        <img src="../images/arrow-down.svg" >
+                                    </div>
+                                    <div>
+                                        <p class="amount2">$1 200 = 0,074 ae</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-overview-cont"></div>
+            </div>
+
+            <div class="footer-btm-block">
+                <div class="main-over-page-foot">
+                    <div class="main-over-page-foot-top">
+                        <div class="left-1">
+                            <p>Market</p>
+                            <select>
+                                <option selected>Bitcoin</option>
+                            </select>
+                        </div>
+                        <div class="right-1">
+                            <select>
+                                <option selected>November</option>
+                            </select>
+                        </div>
+                    </div>
+                    <img src="../images/Vector 2.svg" class="bar">
+                </div>
+                <div class="main-over-page-foot-2">
+                    <p class="news-txt">Resent news</p>
+                    <img src="../images/Line 7.8.svg" class="new-line">
+                    <div class="flex">
+                        <div class="left-last">
+                            <p>19 hours ago</p>
+                        </div>
+                        <div class="right-last">
+                            <p>SEC Fails to Show Court Blockvest Tokens Are Securities</p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="left-last">
+                            <p>22 hours ago</p>
+                        </div>
+                        <div class="right-last">
+                            <p>SEC Fails to Show Court Blockvest Tokens Are Securities</p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="left-last">
+                            <p>38 hours ago</p>
+                        </div>
+                        <div class="right-last">
+                            <p>SEC Fails to Show Court Blockvest Tokens Are Securities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-bg">
+            <img src="../images/3858557_close_mp3_music_player_playing_icon.svg" height="30px" class="close-aside">
+            <div class="aside">
+            
+                <div class="aside-top-block">
+                    <div class="aside-top">
+                        <img src="../images/valuet.svg" class="top-text">
+                    <img src="../images/Line 3.1.svg" class="img-line">
+                    </div>
+                    <div class="sections">
+                        <div class="item">
+                            <img src="../images/overview.svg" alt="">
+                            <p>Overview</p>
+                        </div>
+                        <div class="item">
+                            <img src="../images/wallets.svg" alt="">
+                            <p>Wallets</p>
+                        </div>
+                        <div class="item">
+                            <img src="../images/transactions.svg" alt="">
+                            <p>Transactions</p>
+                        </div>
+                        <div class="item">
+                            <img src="../images/exchange.svg" alt="">
+                            <p class="active">Exchange</p>
+                        </div>
+                        <div class="item">
+                            <img src="../images/market.svg" alt="">
+                            <p>Market</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="aside-bottom">
+                    <img src="../images/Line 3.1.svg" class="aside-bottom-line">
+                    <div class="bottom-item">
+                        <img src="../images/Ellipse.svg">
+                        <p>Mike Jackson</p>
+                    </div>
+                    <div class="bottom-item2">
+                        <img src="../images/log.svg">
+                        <p>Log Out</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+    </div>
+    <div class="modal-register-bg">
+        <img src="../images/Polygon 2.svg" class="polygon-svg">
+        <img src="../images/beatify-line.svg" class="beautify-line">
+        <div class="modal-register">
+            <h1>Welcome!</h1>
+
+            <form name="register">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="tel" name="number" placeholder="Number" required>
+
+                <button class="sgnup">Sign Up</button>
+
+                
+            </form>
+        </div>
+
+        <div class="right-modal-text">
+            <img src="../images/valuet (1).svg" class="logo">
+            <h1 class="dshb">Your currency dashboard</h1>
+        </div>
+    </div>
+    <div class="modal-sign-bg">
+        <img src="../images/Polygon 2.svg" class="polygon-svg">
+        <img src="../images/beatify-line.svg" class="beautify-line">
+        <div class="modal-sign">
+            <h1>Welcome!</h1>
+
+            <form name="sign">
+                <input type="email" name="email" placeholder="Email" required id="email">
+                <input type="password" name="password" placeholder="Password" required id="pswrd">
+
+                <button class="sgnin">Sign In</button>
+
+                
+            </form>
+        </div>
+    </div>
+
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../chart.js"></script>
+    <script src="./script.js"></script>
+
+    <script>
+        const myChart = new Chart(
+          document.getElementById('myChart'),
+          config
+        );
+        
+        </script>
+</body>
+</html>

@@ -1,0 +1,531 @@
+@media only screen and (max-width: 1375px){
+
+    header{
+        width: 97.5%;
+    }
+    .box{
+        width: 95% !important;
+    }
+
+    .main-exchange-block2{
+        width: 97.5% !important; 
+    }
+}
+
+@media only screen and (max-width: 935px){
+    .main-box{
+        margin-left: -100px;
+    }
+}
+@media only screen and (max-width: 820px){
+    .main-box{
+        margin-left: -200px;
+    }
+    aside{
+        display: none !important;
+        }
+        .menu{
+            display: block !important;
+        }
+    .cont{
+        width: 50% !important;
+    }    
+}
+@media only screen and (max-width: 725px){
+    .main-box{
+        margin-left: -250px;
+    }
+}
+
+
+@media only screen and (max-width: 687px){
+    
+
+    .arrow{
+        width: 80px;
+    }
+    .num{
+       font-size: 16px;
+    }
+
+    .num2{
+        font-size: 16px;
+    }
+
+    .btc2{
+       width: 45px;
+    }
+
+    .gridCoin{
+        width: 45px;
+    }
+
+    
+
+}
+
+@media (max-width: 575px){
+   .main-exchange-block{
+    /* width: ; */
+    flex-direction: column;
+   }
+
+   .cont{
+    width: 90% !important;
+}    
+}
+
+@media (max-width: 540px){
+    .right-header-block{
+        display: none !important;
+    }
+    .header-inp{
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 500px){
+    header{
+        padding-left: 5px !important;
+    }
+}
+
+
+
+@media (max-width: 445px){
+    .header-inp{
+        width: 230px !important; 
+       }
+}
+
+@media (max-width: 435px){
+    
+   
+
+   .arrow{
+    width: 60px;
+    }
+    .num{
+       font-size: 14px;
+    }
+
+    .num2{
+        font-size: 14px;
+    }
+    
+    .btc2{
+       width: 35px;
+    }
+    
+    .gridCoin{
+        width: 35px;
+    }
+}
+
+@media (max-width: 374px){
+    .header-inp{
+        width: 200px !important; 
+       }
+}
+
+@media (max-width: 365px){
+    .header-inp{
+        width: 150px !important; 
+       }
+}
+
+@media (max-width: 350px){
+    .btc{
+        width: 75px;
+    }
+}
+@media (max-width: 310px){
+    .btc{
+        width: 55px;
+    }
+}
+
+
+@media (max-width: 1420px){
+    .menu{
+      display: block !important;
+    }
+    aside{
+        display: none !important;
+    }
+}
+
+@media (max-width: 1215px){
+   .item-over{
+    width: 300px !important;
+   }
+   .grd{
+    width: 30px;
+   }
+
+   .over-all{
+    width: 230px;
+   }
+
+}
+@media (max-width: 1153px){
+   .item-over{
+    width: 250px !important;
+   }
+   .grd{
+    width: 30px;
+   }
+
+   .over-all{
+    width: 200px;
+   }
+
+}
+
+@media (max-width: 1050px){
+
+    .overview-container{
+        margin-left: 25% !important;
+        display: block !important;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .overview-box, .item-over{
+        width: 500px !important;
+    }
+       .grd{
+        width: 50px;
+       }
+
+       .over-all{
+        width: 400px;
+       }
+
+       .smth-box{
+         font-size: 20px !important;
+       }
+}
+
+@media (max-width: 990px){
+    .left-overview-top{
+        width: 400px !important;
+    }
+    .date{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 920px){
+    .footer-btm-block{
+        display: block !important;
+        margin-left: 15%;
+    }
+
+    .main-over-page-foot-2{
+        margin-left: 19%;
+    }
+}
+
+@media (max-width: 820px){
+    .main-over-page-foot{
+        margin-left: -100px !important;
+    }
+}
+
+@media (max-width: 710px){
+    .overview-container{
+        margin-left: 15% !important;
+    }
+    .main-over-page-foot{
+        margin-left: 10px;
+        width: 600px !important;
+    }
+    .main-over-page-foot-2{
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 640px){
+    .overview-container{
+        margin-left: 10% !important;
+    }
+    .main-over-page-foot{
+        width: 550px !important;
+    }
+    .main-over-page-foot-2{
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 600px){
+    .overview-container{
+        margin-left: 5% !important;
+    }
+    .main-over-page-foot{
+        width: 500px !important;
+    }
+    .main-over-page-foot-2{
+        margin-left: 5%;
+    }
+
+    .date{
+        font-size: 12px;
+        margin-right: 100px !important;
+    }
+
+}
+
+
+
+@media (max-width: 585px){
+    .overview-container{
+        margin-left: 1% !important;
+    }
+    .main-over-page-foot{
+        width: 450px !important;
+    }
+
+    .bar{
+        width: 420px !important;
+    }
+    .main-over-page-foot-2{
+        margin-left: 1%;
+    }
+}
+@media (max-width: 550px){
+    .overview-container{
+        margin-left: 0% !important;
+    }
+    .overview-box{
+        width: 450px !important;
+    }
+
+
+    .main-over-page-foot{
+        width: 400px !important;
+    }
+
+    .bar{
+        width: 350px !important;
+    }
+    .main-over-page-foot-2{
+        margin-left: 0%;
+    }
+
+    .item-over{
+        width: 400px !important;
+    }
+    .over-all{
+        width: 300px !important;
+    }
+}
+
+@media (max-width: 510px){
+    .main-over-page-foot-2{
+        margin-left: -100px;
+        width: 350px !important;
+    }
+    .date{
+     display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .overview-box{
+        width: 400px !important;
+    }
+    .main-over-page-foot{
+        width: 350px !important;
+    }
+    .main-over-page-foot-2{
+        margin-left: -100px;
+    }
+
+    .bar{
+        width: 300px !important;
+    }
+
+    .item-over{
+        width: 350px !important;
+    }
+    .over-all{
+        width: 250px !important;
+    }
+}
+
+@media (max-width: 470px){
+    .main-over-page-foot{
+        width: 300px !important;
+    }
+
+    .bar{
+        width: 280px !important;
+    }
+}
+
+@media (max-width: 432px){
+    .overview-box{
+        width: 300px !important;
+    }
+    .main-over-page-foot{
+        width: 300px !important;
+    }
+    .main-over-page-foot-2{
+        margin-left: -100px;
+    }
+
+    .bar{
+        width: 250px !important;
+    }
+
+    .item-over{
+        width: 300px !important;
+    }
+    .over-all{
+        width: 250px !important;
+    }
+}
+
+@media  (max-width: 365px){
+    .main-over-page-foot-2{
+        width: 200px !important;
+    }
+}
+
+@media (max-width: 1180px){
+    .modal-sign{
+        margin-left: -200px !important;
+    }
+}
+@media (max-width: 980px){
+    .polygon-svg{
+        width: 100px;
+    }
+    .modal-sign{
+        margin-left: -100px !important;
+    }
+}
+
+@media (max-width: 565px){
+    .modal-sign{
+        width: 400px !important;
+    }
+
+    .modal-sign input{
+        width: 300px !important;
+    }
+}
+@media (max-width: 480px){
+    .modal-sign{
+        width: 380px !important;
+    }
+
+    .modal-sign input{
+        width: 300px !important;
+    }
+}
+
+@media (max-width: 460px){
+    .modal-sign{
+        position: absolute;
+        left: 120px;
+    }
+}
+
+@media (max-width: 410px){
+    .modal-sign{
+        width: 350px !important;
+    }
+    .modal-sign input{
+        width: 250px !important;
+    }
+
+    .sgnin{
+        margin-left: -0px !important;
+    }
+}
+
+@media (max-width: 380px){
+    .modal-sign{
+        width: 300px !important;
+    }
+
+    .modal-sign input{
+        width: 200px !important;
+    }
+}
+
+
+@media (max-width: 1250px){
+    .modal-register{
+        margin-left: 25px !important;
+    }
+}
+@media (max-width: 1150px){
+    .modal-register{
+        margin-left: 40px !important;
+    }
+}
+@media (max-width: 1132px){
+    .modal-register{
+        width: 450px !important;
+    }
+}
+@media (max-width: 1120px){
+    .modal-register-bg{
+        display: block !important;
+    }
+}
+@media (max-width: 595px){
+    .modal-register{
+        margin-left: -25px !important;
+    }
+}
+@media (max-width: 525px){
+    .modal-register{
+        width: 400px !important;
+    }
+
+    .modal-register input{
+        width: 300px !important;
+    }
+}
+@media (max-width: 510px){
+    .logo{
+        width: 150px;
+    }
+
+    .dshb{
+        font-size: 16px;
+    }
+}
+@media (max-width: 465px){
+    .modal-register{
+        width: 300px !important;
+    }
+    .modal-register input{ 
+        width: 250px !important;
+        margin-left: -25px;
+    }
+
+    .sgnup{
+        margin-left: -25px !important;
+    }
+
+}
+
+@media (max-width: 350px){
+    .modal-register{
+        width: 250px !important;
+        margin-left: -10px;
+    }
+    .modal-register input{ 
+        width: 200px !important;
+        margin-left: -35px;
+    }
+
+    .sgnup{
+        margin-left: -35px !important;
+    }
+}
