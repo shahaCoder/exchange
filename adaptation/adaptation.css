@@ -147,9 +147,9 @@
 
 
 @media (max-width: 1420px){
-    .menu{
+    /* .menu{
       display: block !important;
-    }
+    } */
     aside{
         display: none !important;
     }
@@ -474,7 +474,7 @@
 }
 @media (max-width: 1120px){
     .modal-register-bg{
-        display: block !important;
+        flex-wrap: wrap-reverse;
     }
 }
 @media (max-width: 595px){

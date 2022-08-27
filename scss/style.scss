@@ -11,7 +11,8 @@ body{
 .wrapper{
     min-width: 100%;
     margin: auto;
-    // display: flex;
+    display: flex;
+    min-width: 0px;
     display: none;
     
     aside, .aside{
@@ -114,7 +115,7 @@ body{
         }
 
         .menu{
-            display: none;
+            // display: none;
             margin-right: 10px;
         }
 
@@ -145,7 +146,7 @@ body{
 }
 
 main{
-    // display: none;
+    display: none;
     width: 100%;
     padding: 0 32px;
     font-family: "Open Sans";
@@ -314,7 +315,7 @@ main{
         }
 
         .menu{
-            display: none;
+            // display: none;
             margin-right: 10px;
         }
 
@@ -710,5 +711,191 @@ main{
     display: flex;
     // align-items: center;
     justify-content: space-between;
+}
 
+
+// SECTION = MARKET
+body {
+    position: relative;
+    height: 100%;
+  }
+.market-section{
+    width: 100%;
+    padding: 0 32px;
+    font-family: "Open Sans";
+    // display: none;
+
+    .market-section-header{
+        height: 100px;
+        padding-left: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid #1288E8;
+        // width: 100%;
+        background: radial-gradient(46.41% 73.99% at 46.63% 48.05%, #20135C 0%, #140739 92.82%);
+        margin-bottom: 25px;
+    }
+
+    .header-inp{
+        width: 299px;
+        height: 32px;
+        border-radius: 25px;
+        background-color: #161245;
+        outline: none;
+        box-shadow: 0px 4px 20px rgba(3, 16, 52, 0.5);
+        border: none;
+        padding-left: 15px;
+        color: white;
+        font-size: 16px;
+    }
+
+    .left-header-block{
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .menu{
+        // display: none;
+        margin-right: 10px;
+    }
+
+    .right-header-block{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .ring{
+            margin-top: 15px;
+        }
+    }
+
+
+    .market-section-body{
+        color: white;
+        text-align: center;
+    }
+    
+}
+
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+
+
+
+.swiper-slide{
+        width: 346px;
+        height: 149px;
+        margin-bottom: 25px;
+        background: linear-gradient(180deg, rgba(27, 18, 78, 0.2) -49.17%, #0F0B38 90.11%);
+        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        position: relative;
+        // display: flex;
+}
+
+.swp-img{
+    height: 60px !important;
+}
+
+.top-swp-block{
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+}
+
+.left-swp-block{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    position: absolute; 
+    top: 20px;
+    left: 20px;
+
+}
+
+.top-right-swp{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.right-swp-block{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    p{
+        color: #616A8B;
+        font-size: 12px;
+    }
+
+    .eur{
+        color: white;
+        font-size: 14px;
+    }
+}
+
+.top-right-swp{
+    position: absolute !important;
+    top: 10px !important;
+    right: 0px !important;
+}
+
+.right-main-swp{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.right-btm-swp{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.left-text-swp{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.bottom-swp-block{
+    position: absolute;
+    bottom: 10px;
+}
+
+.green-line{
+    height: 50px !important;
 }
